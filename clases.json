@@ -1,0 +1,3 @@
+{
+  "class_names": ["battery", "biological", "cardboard", "glass", "metal", "paper", "plastic", "trash"]
+}
