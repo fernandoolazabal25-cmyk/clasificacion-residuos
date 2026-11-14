@@ -1,4 +1,4 @@
 streamlit>=1.40
-tensorflow-cpu>=2.16
+tensorflow-cpu>=2.21
 numpy
 pillow

@@ -80,7 +80,7 @@ header[data-testid="stHeader"]{background:transparent}
 .serif{font-family:'Fraunces',Georgia,serif}
 .cab{display:flex;justify-content:space-between;border-bottom:1px solid #17140f;padding-bottom:12px;margin-bottom:2rem;font-size:.85rem;color:#6d665a}
 .cab b{font-family:'Fraunces',serif;font-weight:800;font-size:1.2rem;color:#17140f;letter-spacing:-.02em}
-h1.titulo{font-family:'Fraunces',serif;font-weight:800;font-size:clamp(3.2rem,9vw,7rem);line-height:.9;letter-spacing:-.045em;margin:0 0 1rem;overflow:hidden;padding-bottom:.15em}
+h1.titulo{font-family:'Fraunces',serif;font-weight:800;font-size:clamp(3.2rem,9vw,7rem);line-height:.9;letter-spacing:-.045em;word-spacing:.16em;margin:0 0 1rem;overflow:hidden;padding-bottom:.15em}
 h1.titulo span{display:block;animation:rise 1s cubic-bezier(.2,.8,.2,1) both}
 h1.titulo span+span{animation-delay:.12s}h1.titulo em{font-weight:400}
 p.sub{color:#3b362d;font-size:1.1rem;max-width:520px;margin-bottom:1.6rem;animation:fade 1s .4s both}
