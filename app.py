@@ -162,7 +162,7 @@ st.markdown('<div class="cab"><b>Tacho</b><span>Clasificación de residuos con D
 disponibles = {k: v for k, v in MODELOS.items() if os.path.exists(v[0])}
 if not disponibles:
     st.error("No se encontraron modelos en la carpeta `models/`. Copia "
-             "`efficientnetb3_residuos.h5` y/o `mobilenetv2_residuos.h5` (ver README).")
+             "`efficientnetb3_mejorado.keras` y/o `mobilenetv2_mejorado.keras` (ver README).")
     st.stop()
 
 nombre = st.sidebar.selectbox("Modelo", list(disponibles))
